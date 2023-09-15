@@ -34,74 +34,74 @@ color: #222831;
 .cardimg1{
  height: 190px;
  width: 350px;
- background-image: url(newcar1.jpeg);
+ background-image: url(img/newcar1.jpeg);
  background-size: cover;
  
 }
 .cardimg2{
  height: 190px;
  width: 350px;
- background-image: url(newcar2.jpeg);
+ background-image: url(img/newcar2.jpeg);
  background-size: cover;
 }
 .cardimg3{
  height: 190px;
  width: 350px;
- background-image: url(newcar3.jpeg);
+ background-image: url(img/newcar3.jpeg);
  background-size: cover;
 }
 .cardimg4{
     height: 190px;
     width: 280px;
-    background-image: url(expensivecar2.jpg);
+    background-image: url(img/expensivecar2.jpg);
     background-size: cover;   
 }
 .cardimg5{
     height: 190px;
     width: 280px;
-    background-image: url(expensivecar3.jpg);
+    background-image: url(img/expensivecar3.jpg);
     background-size: cover;   
 }
 .cardimg6{
     height: 190px;
     width: 280px;
-    background-image: url(expensivecar4.jpg);
+    background-image: url(img/expensivecar4.jpg);
     background-size: cover;   
 }
 .cardimg7{
     height: 190px;
     width: 280px;
-    background-image: url(expensivecar5.jpg);
+    background-image: url(img/expensivecar5.jpg);
     background-size: cover;   
 }
 .cardimg8{
     height: 190px;
     width: 280px;
-    background-image: url(expensivecar6.jpg);
+    background-image: url(img/expensivecar6.jpg);
     background-size: cover;   
 }
 .cardimg9{
     height: 190px;
     width: 350px;
-    background-image: url(bestselling1.jpeg);
+    background-image: url(img/bestselling1.jpeg);
     background-size: cover;
    }
 .cardimg10{
     height: 190px;
     width: 350px;
-    background-image: url(bestselling2.jpeg);
+    background-image: url(img/bestselling2.jpeg);
     background-size: cover;
    }
 .cardimg11{
     height: 190px;
     width: 350px;
-    background-image: url(bestselling3.jpeg);
+    background-image: url(img/bestselling3.jpeg);
     background-size: cover;
    }
 .cardimg12{
     height: 190px;
     width: 350px;
-    background-image: url(bestselling4.jpeg);
+    background-image: url(img/bestselling4.jpeg);
     background-size: cover;
    }
 
