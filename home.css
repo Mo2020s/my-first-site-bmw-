@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introduction{
+    background-color: #222831;
+    border-radius: 10px;
+    width: 400px;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 1.3s ease-in-out;
+    padding: 14px;
+ }
+
+.introduction p{
+color: #f2f2f2;
+display: -webkit-box;
+overflow: hidden;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 14;
+text-align: justify;
+}
+
+.introduction p span{
+    color: blue;
+    font-weight: bold;
+}
+
+.introduction h2{
+    text-align: center;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+.introduction:hover{
+    width: 700px;    
+}
+
+.video{
+    width: 500px;
+    height:300px;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+
+#a1{
+   padding: 20px;
+   text-decoration: underline;
+   color: #f2f2f2;
+   font-weight: bold;
+}
+
+.acheivement{
+    background-color: #222831;
+    text-align: center;
+    background-image: ;
+}
+
+.acheivement ul li p{
+
+padding: 20px;
+color:#f2f2f2;
+
+}
+
+.acheivement ul li h3{
+    color: #f2f2f2;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.biography{
+    background-color: #222831;
+}
+
+.biography h2{
+    padding: 20px;
+    text-decoration: underline;
+    color: #f2f2f2;
+    font-weight: bold;
+   
+}
+
+.biocards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card1{
+width: 300px;
+height: 300px;   
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: #f2f2f2;
+border-radius: 10px;
+gap: 3px;
+margin-bottom: 10px;
+}
+
+.card1 img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card1 p{
+    padding: 10px;
+    color: #222831;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.acheivement hr {
+    width: 50%;
+    margin: 0 auto;
+}

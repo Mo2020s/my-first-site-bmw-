@@ -1,0 +1,204 @@
+#carst{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: bold;
+padding: 20px;
+text-transform: uppercase;
+color: #222831;
+}
+.carcards{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+    
+}
+
+.newcars{
+   height: 400px;
+   width: 350px;
+   background-color: #222831;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   transition: all 1s ease-in-out;
+}
+
+.expensivecars{
+    height: 350px;
+    width: 280px;
+    background-color: #222831;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 1s ease-in-out;
+}
+/* implement each card */
+.cardimg1{
+ height: 190px;
+ width: 350px;
+ background-image: url(newcar1.jpeg);
+ background-size: cover;
+ 
+}
+.cardimg2{
+ height: 190px;
+ width: 350px;
+ background-image: url(newcar2.jpeg);
+ background-size: cover;
+}
+.cardimg3{
+ height: 190px;
+ width: 350px;
+ background-image: url(newcar3.jpeg);
+ background-size: cover;
+}
+.cardimg4{
+    height: 190px;
+    width: 280px;
+    background-image: url(expensivecar2.jpg);
+    background-size: cover;   
+}
+.cardimg5{
+    height: 190px;
+    width: 280px;
+    background-image: url(expensivecar3.jpg);
+    background-size: cover;   
+}
+.cardimg6{
+    height: 190px;
+    width: 280px;
+    background-image: url(expensivecar4.jpg);
+    background-size: cover;   
+}
+.cardimg7{
+    height: 190px;
+    width: 280px;
+    background-image: url(expensivecar5.jpg);
+    background-size: cover;   
+}
+.cardimg8{
+    height: 190px;
+    width: 280px;
+    background-image: url(expensivecar6.jpg);
+    background-size: cover;   
+}
+.cardimg9{
+    height: 190px;
+    width: 350px;
+    background-image: url(bestselling1.jpeg);
+    background-size: cover;
+   }
+.cardimg10{
+    height: 190px;
+    width: 350px;
+    background-image: url(bestselling2.jpeg);
+    background-size: cover;
+   }
+.cardimg11{
+    height: 190px;
+    width: 350px;
+    background-image: url(bestselling3.jpeg);
+    background-size: cover;
+   }
+.cardimg12{
+    height: 190px;
+    width: 350px;
+    background-image: url(bestselling4.jpeg);
+    background-size: cover;
+   }
+
+
+.newcars h2, .newcars p {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.expensivecars h2, .expensivecars p{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+.newcars p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.expensivecars p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.newcars:hover{
+ 
+    background-color: #79c2d0;
+    color: #fbf9fa;
+    transform: scale(1.03);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.expensivecars:hover {
+
+    background-color: #79c2d0;
+    color: #fbf9fa;
+    transform: scale(1.03);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+table{
+    margin-top: 7px;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 800px;
+    height: 300px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+tr{
+    text-align: center;
+    cursor: pointer;
+
+}
+
+th,td{
+    border-bottom: 1px solid #ddd;
+}
+
+/* designing the first th*/
+#header{
+    color: #f2f2f2;
+    background-color: #222831;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tb{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: bold;
+padding: 10px;
+text-transform: uppercase;
+color: #222831;
+text-align: center;
+}
+
+/* when the user hover , the images brightness decrease*/
+.expensivecars div{
+    transition: all 1s ease-in-out;
+}
+.expensivecars:hover div{
+    transition: all 1s ease-in-out;
+    filter: brightness(30%);
+}
+
+.newcars div{
+    transition:  all 1s ease-in-out;
+}
+
+.newcars:hover div {
+    transition: all 1s ease-in-out;
+    filter: brightness(30%); 
+}

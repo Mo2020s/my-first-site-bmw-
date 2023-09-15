@@ -1,0 +1,215 @@
+.Deal{
+    margin-left: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid #222831;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+#hd{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: bold;
+color: #222831;
+text-transform: uppercase;
+margin-left: 14%;
+}
+
+#pr{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #222831;
+    
+}
+
+.mo{
+    display: flex;
+    justify-content: center;
+}
+
+#hd1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: bold;
+color: #222831;
+text-transform: uppercase;
+text-align: center;
+padding: 20px;
+}
+
+.cards-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 550px;
+   width: 390px;
+   background-color: #222831;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   transition: all 1s ease-in-out;
+   border-radius: 0 30px;
+}
+
+.img1{
+    height: 190px;
+    width: 390px;
+    background-image: url(buycar1.jpeg);
+    background-size: cover;
+    border-radius: 0 30px 0 0;
+    transition: all 1s ease-in-out;
+}
+.img2{
+    height: 190px;
+    width: 390px;
+    background-image: url(buycar2.jpeg);
+    background-size: cover;
+    border-radius: 0 30px 0 0 ;
+    transition: all 1s ease-in-out;
+}
+.img3{
+    height: 190px;
+    width: 390px;
+    background-image: url(buy3.jpeg);
+    background-size: cover;
+    border-radius: 0 30px 0 0;  
+    transition: all 1s ease-in-out;
+}
+
+.card p ,.card h2{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+
+}
+
+.card p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card div{
+    filter: brightness(30%);
+}
+
+.card:hover{
+
+    color: #fbf9fa;
+    transform: scale(1.03);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover div{
+    filter: brightness(100%);
+    transition: all 1s ease-in-out;
+}
+
+.container{
+    background-color: #222831;
+}
+
+#hd2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: bold;
+color: #f2f2f2;
+text-transform: uppercase;
+text-align: center;
+padding: 40px 0 0 0 ;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+.m1 input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255,0.25);
+    background-color: #222831;
+    outline: none;
+    color: #f2f2f2;
+    font-size: 1em;    
+}
+
+.m1{
+    position: relative;
+    width: 250px;
+}
+
+.m1 span{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255, 255, 255,0.25);
+    transition: all 0.5s ease-in-out;
+}    
+
+.m1 input:valid ~span,
+.m1 input:focus ~span{
+
+color: #f2f2f2;
+transform: translateX(10px) translateY(-7px);
+padding: 0 10px;
+font-size: 0.75em;
+transition: all 0.5s ease-in-out;
+background-color: #222831;
+border-left:  1px solid #f2f2f2;
+border-right: 1px solid #f2f2f2; 
+}
+.m2{
+    margin-top: 20px;
+}
+
+.m2 label{
+    color: #f2f2f2;
+    font-size: large;
+}
+#sp{
+    color: #f2f2f2;
+    padding: 7px;
+}
+#dn{
+    
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #222831;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+#dn:hover{
+    background-color: aqua;
+    transition: all 1s ease-in-out;
+    color: #222831;
+}
+
+#copyr{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #222831;
+}

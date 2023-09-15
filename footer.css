@@ -1,0 +1,39 @@
+footer{
+    background-color: #f2f2f2;
+    height: 90px;
+}
+
+#bmlg{
+    height: 90px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  flex-start ;
+   
+}
+
+.icons{
+    display: flex;
+     gap: 15px;
+     margin-left: 40%;
+}
+
+.icons li a img {
+
+    height: 30px;
+}
+
+.icons li {
+list-style: none;
+}
+
+#copyr{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin-bottom: 30px;
+    color: #222831;
+}
