@@ -1,11 +1,12 @@
-BMW Website Project
-Overview
+<h1>BMW Website Project</h1>
+<h5>Overview</h5>
 This is a beginner's web development project, created as a personal website dedicated to the iconic German automotive manufacturer, BMW. The project showcases the use of HTML and CSS to build a static webpage that provides information about BMW's history, achievements, and contributions to the automotive industry.
 
-<h2> Project Components </h2>
+<h5> Project Components </h5>
 1. HTML Structure
 The project utilizes HTML5 for structuring the content of the webpage.
 Standard HTML elements like headings, paragraphs, lists, images, videos, and hyperlinks are used.
+<br>
 2. CSS Styling
 CSS (Cascading Style Sheets) is employed to style and format the webpage.
 Multiple CSS files are linked to apply distinct styles to different sections of the website.
